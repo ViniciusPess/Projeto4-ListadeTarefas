@@ -1,0 +1,109 @@
+@font-face{
+  font-family: '04b';
+  src: url(04B_30__.TTF) format('truetype');
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 20px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: #00BFFF;
+    text-align: center;
+    font-family: '04b';
+}
+  
+  input[type="text"],
+  button {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    max-width: 100%;
+  }
+  
+  button {
+    background-color: #00BFFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: '04b';
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+
+button {
+    font-size: 20px;
+    padding: 5px;
+    width: auto;
+  }
+  
+  button.remove-button {
+    background-color: transparent;
+    color: red;
+    border: none;
+    cursor: pointer;
+  }
+  
+  li {
+    margin-bottom: 15px;
+    padding-right: 150px;
+    position: relative;
+  }
+  
+  button.remove-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 14px;
+    padding: 2px 5px;
+    width: 140px;
+  }
+  
+  body {
+    color: white;
+    background-color: black; 
+  }
+  
+  li {
+    margin-bottom: 15px;
+    padding-right: 150px;
+    position: relative;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+   
+  }
+  
+  
+  
